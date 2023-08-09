@@ -1,0 +1,779 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto&display=swap');
+
+body{
+    margin: 0;
+    background-color: black;
+}
+#Breakpoint2023{
+    width: 100vw;
+    height: 37px;
+    flex-shrink: 0;
+    background: linear-gradient(229deg, #0047FF 0%, #00BCD4 100%);
+}
+#Breakpoint2023P{
+    color: #000;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 160.588% */
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 5px;
+}
+header nav a{
+    text-decoration: none;
+    color: #848895;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 160.588% */
+    margin-left: 32px;
+    margin-right: 24px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.PowerfulForDevelopers{
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 75px; /* 108% */
+    letter-spacing: 1px;
+}
+#BringBlockchain{
+    color: #FFF;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 130% */
+    padding-top: 55px;
+    padding-bottom: 48px;
+    margin: 0;
+}
+#Section1{
+    text-align: center;
+    padding-top: 166px;
+    padding-bottom: 119px;
+}
+.StartBuilding{
+    color: white;
+    padding: 16px 33px;
+    gap: 10px;
+    border-radius: 36px;
+    border: 1px solid #000;
+    background: linear-gradient(152deg, #8C01FA 0%, #000 100%);
+}
+.StartBuilding:hover{
+    color: black;
+    background: white;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+#ReadDocs{
+    color: white;
+    padding: 16px 33px;
+    gap: 10px;
+    border-radius: 36px;
+    background: #000;
+    margin-left: 15px;
+}
+#ReadDocs:hover{
+    color: black;
+    background: white;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+#PoweringTools{
+    color: #618ADC;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 112% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+#DivIMG1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 33px;
+    margin: 0;
+}
+#DivIMG2{
+    display: flex;
+    padding: 1px 50px;
+    align-items: center;
+    gap: 40px;
+    margin: 0;
+}
+#Section2{
+    display: inline-flex;
+    height: 845px;
+    width: 100vw;
+    justify-content: center;
+    align-items: self-start;
+    flex-shrink: 0;
+}
+.Community{
+    width: 570px;
+    height: 573px;
+    margin: 124px 0 124px ;
+
+}
+#JoinACommunity{
+    color: #FFF;
+    font-family: Helvetica, sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px; /* 121.579% */
+    letter-spacing: 1px;
+    margin: 77px 22px 0;
+}
+#OfMillions{
+    color: #FFF;
+    font-family: Helvetica, sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px; /* 121.579% */
+    letter-spacing: 1px;
+    margin: 0 22px 0;
+}
+#ActiveAccountsNumber{
+    font-family: Helvetica, sans-serif;
+    font-size: 101px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132px; /* 130.693% */
+    background: linear-gradient(228deg, #19FB9B 0%, #8C01FA 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+#NFTsMintedNumber{
+    font-family: Helvetica, sans-serif;
+    font-size: 106px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132px; /* 124.528% */
+    background: linear-gradient(229deg, #0047FF 0%, #00BCD4 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+#AverageCostPerTransactionNumber{
+    font-family: Helvetica, sans-serif;
+    font-size: 110px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132px; /* 120% */
+    background: linear-gradient(222deg, #00FFBD 0%, #025B8C 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+.NumberText{
+    color: #C4C4C4;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 170.625% */
+    text-transform: uppercase;
+}
+#Statistics{
+    display: flex;
+    padding: 0 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 45px;
+}
+.Stats{
+    width: 530px;
+    height: 159px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+#Section3{
+    display: flex;
+    height: 788px;
+    width: 100vw;
+    justify-content: center;
+    align-items: self-start;
+    flex-shrink: 0;
+}
+#MassAdoptionBlock{
+    display: flex;
+    height: 723px;
+    width: 1146px;
+    padding: 64px 0 0 20px;
+    gap: 20px;
+    flex-shrink: 0;
+}
+#MadeForMassAdoptionDiv{
+    width: 340px;
+    height: 116px;
+}
+.MadeForMassAdoption{
+    color: #FFF;
+    font-family: Helvetica, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px; /* 115.5% */
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0 0 0;
+}
+.MassAdoptionDivH1{
+    color: #FFF;
+    font-family: Helvetica, sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 118% */
+}
+#liveData{
+    color: #C4C4C4;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 100% */
+    text-transform: uppercase;
+}
+.MassAdoptionP{
+    color: #C4C4C4;
+    font-family: Helvetica, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 160.588% */
+
+}
+.MassAdoptionP2{
+    color: #C4C4C4;
+    font-family: Helvetica, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 160.588% */
+    text-transform: uppercase;
+}
+#Fast{
+    width: 340px;
+    height: 308px;
+    flex-shrink: 0;
+    margin-top: 100px;
+    border-radius: 5%;
+    padding-left: 32px;
+}
+#Decentralized{
+    width: 340px;
+    height: 335px;
+    flex-shrink: 0;
+    border-radius: 5%;
+    padding-left: 32px;
+}
+#Scalable{
+    width: 340px;
+    height: 335px;
+    flex-shrink: 0;
+    border-radius: 5%;
+    padding-left: 32px;
+}
+#StatsPosition{
+    display: block;
+    justify-content: center;
+    align-items: flex-start;
+    vertical-align: top;
+}
+#EnergyEfficient{
+    width: 340px;
+    height: 362px;
+    flex-shrink: 0;
+    border-radius: 5%;
+    padding-left: 32px;
+}
+#EnvironmentLink{
+    color: #17da72;
+}
+#MadeForMassAdoptionMargin{
+    margin-top: 50px;
+}
+#BuildForGrowthBlock{
+    width: 1140px;
+    height: 574px;
+    display: flex;
+    justify-content: center;
+    margin: 124px 0 124px;
+}
+#BuildForGrowthHeader{
+    width: 1100px;
+    height: 48px;
+    gap: 361px;
+    flex-shrink: 0;
+}
+#ButtonsBlock{;
+    gap: 16px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -45px;
+}
+.ButtonsStyle1{
+    width: 64px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #111;
+    color: #FFF;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 182% */
+    margin: 0;
+    border: 0;
+}
+.ButtonsStyle1:hover{
+    border: 1px solid #A962FF;
+}
+#PaymentsButton{
+    width: 98px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 1px solid #111;
+    background: #111;
+    color: #FFF;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 182% */
+}
+#PaymentsButton:hover{
+    border: 1px solid #A962FF;
+}
+#Section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#BuildForGrowth{
+    color: #FFF;
+    font-family: Helvetica, sans-serif;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px; /* 118.462% */
+    letter-spacing: 1px;
+    margin: 0;
+}
+#GamingButton{
+    width: 83px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 1px solid #111;
+    background: #111;
+    color: #FFF;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 182% */
+}
+#GamingButton:hover{
+    border: 1px solid #A962FF;
+}
+#BuildForGrowthBlock2{
+    display: flex;
+    width: 1100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 32px;
+}
+#IMGBlock{
+    width: 550px;
+    height: 400px;
+    flex-shrink: 0;
+}
+#AnyBodiesBlock{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 502px;
+    height: 400px;
+    flex-shrink: 0;
+    background-color: #1a1a1a;
+    padding-left: 48px;
+}
+#BuildForGrowthBlock3{
+    margin: 0;
+    display: flex;
+    width: 1100px;
+    height: 400px;
+}
+#AnyBodiesBlockText1{
+    color: #FFF;
+    font-family: Helvetica, sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 130% */
+}
+#AnyBodiesBlockText2{
+    color: #A962FF;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 136.5% */
+    text-decoration: none;
+}
+#IMGsBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 33px;
+    width: 1100px;
+    height: 62px;
+    background: rgba(38, 31, 38, 0.30)
+}
+#IMGsBlockPosition{
+    display: flex;
+    padding: 1px 50px;
+    align-items: center;
+    gap: 220px;
+    margin-top: 5px;
+}
+#JoinAThrivingCommunityBlockPosition{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+#Section5{
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 125px;
+    overflow: hidden;
+}
+#JoinAThrivingCommunityBlock{
+    width: 1100px;
+    height: 47px;
+}
+#JoinAThrivingCommunityText{
+    margin: 0;
+    color: #FFF;
+    font-family: Helvetica, sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px; /* 121.579% */
+    letter-spacing: 1px;
+}
+#IMGs{
+    display: flex;
+    justify-content: left;
+    width: 3160px;
+    height: 422px;
+}
+#FrameSet{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 257px;
+    height: 422px;
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+.FrameSet{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 422px;
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+#Block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 253px;
+    height: 200px;
+    border-radius: 8px;
+    background: #1a1a1a;
+}
+.Block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 200px;
+    background: #1a1a1a;
+}
+.IMGBlock{
+    width: 300px;
+    height: 200px;
+}
+#BlockHStyle1{
+    color: #F087FF;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px; /* 124.865% */
+    letter-spacing: 1px;
+    margin: 10px 0 1px;
+}
+.BlockPStyle{
+    color: #BABABA;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px; /* 128% */
+    text-transform: uppercase;
+}
+#BlockHStyle2{
+    color: #19FB9B;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px; /* 110% */
+    letter-spacing: 1px;
+    margin: 10px 0 1px;
+}
+#BlockIMG1{
+    width: 600px;
+    height: 420px;
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+#BlockIMG2{
+    width: 300px;
+    height: 420px;
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+#BlockHStyle3{
+    color: #FFEB3B;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px; /* 110% */
+    letter-spacing: 1px;
+    margin: 0;
+}
+#Section6{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0 208px;
+}
+#TextStyle{
+    color: #FFF;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px; /* 121.579% */
+    letter-spacing: 1px;
+    margin: 18px;
+}
+#Footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 383px;
+    flex-shrink: 0;
+    border-radius: 12px 12px 0 0;
+    border: 1px solid #141414;
+    background: #000508;
+}
+#FooterBlock1{
+    display: flex;
+    width: 400px;
+    height: 221px;
+    padding: 1px 0 49px 0;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#FooterBlock2{
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    align-items: flex-start;
+}
+#FooterBlock1P{
+    color: #FFF;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 170.625% */
+}
+#LogosPosition{
+    display: flex;
+    height: 30px;
+    padding: 4px 0 9px 0;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+}
+.LogosBackground{
+    width: 26px;
+    height: 16px;
+    flex-shrink: 0;
+    background: #848895;
+    display: flex;
+    justify-content: center;
+}
+#RedditBackground{
+    width: 26px;
+    height: 16px;
+    flex-shrink: 0;
+    background: #848895;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+}
+#FooterBlock1P2{
+    color: #848895;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 170.625% */
+    margin: 0;
+}
+#FooterBlock2BT1{
+    display: flex;
+    width: 161px;
+    padding: 0 4px 0 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 7px;
+    flex-shrink: 0;
+}
+.FooterBlock2H{
+    color: #FFF;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 117% */
+    text-transform: uppercase;
+}
+.FooterBlock2P{
+    color: #848895;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 182% */
+    margin: 4px;
+}
+#FooterBlock2BT2{
+    display: flex;
+    width: 205px;
+    padding: 19px 40px 78px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7px;
+    flex-shrink: 0;
+}
+#LBlock{
+    display: flex;
+    justify-content: space-around;
+    width: 70px;
+    height: 20px;
+    flex-shrink: 0;
+}
+#EN{
+    color: #848895;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    text-transform: uppercase;
+    margin: 0;
+}
+#FooterBlock2TPosition1{
+    display: flex;
+    width: 93px;
+    height: 195px;
+    padding: 24px 0 5px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 11px;
+}
+#FooterBlock2TPosition2{
+    display: flex;
+    width: 150px;
+    height: 117px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 11px;
+}
+
+
